@@ -1,0 +1,335 @@
+.home-page-4 {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
+  display: inline-block;
+  width: 347px;
+  height: 45px;
+}
+.parent-frame-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 338px;
+  height: 190px;
+}
+.parent-frame-child1 {
+  position: absolute;
+  top: 184px;
+  left: 93px;
+  width: 14.7px;
+  height: 2px;
+  object-fit: contain;
+  z-index: 1;
+}
+.parent-frame2 {
+  position: absolute;
+  top: 58px;
+  left: 0;
+  width: 338px;
+  height: 190px;
+}
+.text-container-child {
+  height: 39px;
+  width: 251px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  display: none;
+}
+.your-stories {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  z-index: 2;
+}
+.frame-story,
+.text-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text-container {
+  flex: 1;
+  background-color: var(--color-gainsboro);
+  padding: 0 var(--padding-lg) var(--padding-sm) var(--padding-11xs);
+  white-space: nowrap;
+  z-index: 1;
+}
+.frame-story {
+  align-self: stretch;
+  padding: 0 var(--padding-3xl);
+}
+.frame-like-comment-frame-child {
+  height: 52px;
+  width: 140px;
+  position: relative;
+  background-color: var(--color-snow-100);
+  display: none;
+}
+.story-1 {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 800;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+  z-index: 2;
+}
+.frame-like-comment-frame {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-11xl) 13px var(--padding-7xl);
+  background-color: var(--color-snow-100);
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frame-like-comment-frame-item {
+  height: 52px;
+  width: 140px;
+  position: relative;
+  background-color: var(--color-snow-100);
+  display: none;
+}
+.story-21 {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 800;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+  z-index: 2;
+}
+.frame-like-comment-frame1,
+.frame-story-frame1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-like-comment-frame1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-8xl) 12px var(--padding-7xl);
+  background-color: var(--color-snow-100);
+  align-self: stretch;
+  flex-direction: row;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frame-story-frame1 {
+  flex: 1;
+  flex-direction: column;
+  gap: 17px 0;
+}
+.frame-story-frame-child {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.likes,
+.read {
+  position: relative;
+  font-weight: 800;
+}
+.read {
+  align-self: stretch;
+  z-index: 3;
+}
+.likes {
+  flex: 1;
+  z-index: 2;
+}
+.combined-frame,
+.rectangle-shape1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.combined-frame {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-7xs);
+  margin-top: -2px;
+}
+.rectangle-shape1 {
+  width: 52px;
+  flex-direction: column;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.comments {
+  flex: 1;
+  position: relative;
+  font-weight: 800;
+  z-index: 2;
+}
+.comment-area,
+.frame-story-frame2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.comment-area {
+  width: 55px;
+  flex-direction: row;
+  padding: 0 var(--padding-7xs);
+  box-sizing: border-box;
+}
+.frame-story-frame2 {
+  align-self: stretch;
+  flex-direction: column;
+  padding: var(--padding-9xs) var(--padding-9xs) var(--padding-10xs);
+  position: relative;
+  gap: 3px 0;
+}
+.frame-story-frame-item {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.likes1,
+.read1 {
+  position: relative;
+  font-weight: 800;
+}
+.read1 {
+  align-self: stretch;
+  z-index: 3;
+}
+.likes1 {
+  flex: 1;
+  z-index: 2;
+}
+.likes-wrapper,
+.read-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.likes-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-7xs);
+  margin-top: -2px;
+}
+.read-parent {
+  width: 52px;
+  flex-direction: column;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.comments1 {
+  flex: 1;
+  position: relative;
+  font-weight: 800;
+  z-index: 2;
+}
+.comments-wrapper,
+.frame-story-frame3,
+.rectangle-shape {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.comments-wrapper {
+  width: 55px;
+  flex-direction: row;
+  padding: 0 var(--padding-7xs);
+  box-sizing: border-box;
+}
+.frame-story-frame3,
+.rectangle-shape {
+  align-self: stretch;
+  flex-direction: column;
+}
+.frame-story-frame3 {
+  padding: var(--padding-9xs) var(--padding-9xs) var(--padding-10xs);
+  position: relative;
+  gap: 3px 0;
+}
+.rectangle-shape {
+  gap: 27px 0;
+}
+.frame-like-comment-frame2 {
+  width: 125px;
+  flex-direction: column;
+  padding: 10px 0 0;
+  box-sizing: border-box;
+}
+.child-frame,
+.frame-like-comment-frame2,
+.frame-story-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-story-frame {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 0 31px;
+  font-size: var(--font-size-6xs);
+}
+.child-frame {
+  position: absolute;
+  top: 68px;
+  left: 23px;
+  width: 296px;
+  flex-direction: column;
+  font-size: var(--font-size-xl);
+}
+.home-page-4-parent {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.welcome {
+  width: 100%;
+  height: 248px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  letter-spacing: normal;
+}
